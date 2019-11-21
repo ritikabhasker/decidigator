@@ -18,6 +18,12 @@
   font-size: 18px;
 }
 
+.tiny {
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+}
 
 .input,.input:focus {
   font-size: 25px;

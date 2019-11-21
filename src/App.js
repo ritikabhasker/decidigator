@@ -45,6 +45,7 @@ class App extends Component {
         }
         {this.state.answer === "Yes" && this.state.toggle ? <img height='400px' src={require('./happy.jpg')} /> : null}
         {this.state.answer === "No" && this.state.toggle ? <img height='400px' src={require('./sad.jpg')} /> : null}
+        <div className='tiny'><a href='https://github.com/ritikabhasker/decidigator'>Source code</a></div>
       </div>
     );
   }
